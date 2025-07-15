@@ -6,3 +6,9 @@ class Solution(object):
                     continue
                 if i + j == target:
                     return [idxi, idxj]
+        return None
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
